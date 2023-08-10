@@ -1,0 +1,35 @@
+/* asterix selector to ovveride default styles added by the browswer */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ /* General styles */
+ body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+    
+    /*generic project styles*/
+    color: #35537d;
+ }
+ 
+
+
+/*Header*/
+header {
+    background-color: #f8b195
+}
+
+/* Main content */
+main {
+    background-color: #f67280;
+    /* main main content take up any extra space to push footer down */
+    flex: 1 0 auto;
+}
+
+/* Footer */
+footer {
+background-color: #c06c84;
+}
