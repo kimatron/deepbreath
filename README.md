@@ -33,8 +33,18 @@ In the future adding a feature to index local dive shops in a users area via a m
  <h1>Testing</h1>
  On completion of the design, the site was tested across multiple browsers and platforms. The site has been built using Chrome, and so it was also tested across Microsoft Edge and Firefox for desktops and larger screen sizes, whilst tested using Safari and Chrome on mobile and tablet devices.
 
+* Check validator websites for HTML and CSS and Accessibility when finished and save screenshots as proof here*
+* use lighthouse
+* accessibility is important (alt)
+ <br>
+ <h3>Bugs</h3>
+<h3>Credits</h3>
+Used code institute 
  
-
+template to start project
+Used fonts from googlefonts
+credit image sourcesc
+credit other sources where necessary...
 ---
 
 Happy diving!
