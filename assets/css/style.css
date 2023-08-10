@@ -1,3 +1,9 @@
+/* importing font style Catamaran */
+/* rules to match : 
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 /* asterix selector to ovveride default styles added by the browswer */
 
 * {
