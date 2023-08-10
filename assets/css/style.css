@@ -1,8 +1,8 @@
 /* importing font style Catamaran */
 /* rules to match : 
-font-family: 'Lato', sans-serif;
-font-family: 'Oswald', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+font-family: 'Catamaran',
+sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;400;500;600;700;800&display=swap');
 
 /* asterix selector to ovveride default styles added by the browswer */
 
@@ -19,6 +19,7 @@ font-family: 'Oswald', sans-serif; */
     
     /*generic project styles*/
     color: #35537d;
+    font-family: 'Catamaran', sans-serif;;
  }
  
 
