@@ -20,7 +20,7 @@ sans-serif; */
     flex-direction:column;
     
     /*generic project styles*/
-    color: #35537d;
+    color: #f67280;
     font-family: 'Catamaran', sans-serif;;
  }
  
@@ -28,7 +28,15 @@ sans-serif; */
 
 /*Header*/
 header {
-    background-color: #f8b195
+    background-color: #f8b195;
+        background-color:;
+    height: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 40px;
+        /*remove this later if it doesn't do anything */
+        width: 100%;
+        box-shadow: 0 113px 113px #f67280;
     
 }
 
@@ -38,14 +46,16 @@ h1 {
 
 /* Main content */
 main {
-    background-color: #f67280;
+    background-color: 
+    #35537d;
     /* main main content take up any extra space to push footer down */
     flex: 1 0 auto;
 }
 
 /* Footer */
 footer {
-background-color: #c06c84 ;
+background-color: #f8b195 ;
+color: #35537d;
 }
 
 
