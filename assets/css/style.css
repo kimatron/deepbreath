@@ -1,8 +1,10 @@
 /* importing font style Catamaran */
 /* rules to match : 
 font-family: 'Catamaran',
+sans-serif;
+font-family: 'Questrial',
 sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;400;500;600;700;800&family=Questrial&display=swap');
 
 /* asterix selector to ovveride default styles added by the browswer */
 
@@ -27,6 +29,11 @@ sans-serif; */
 /*Header*/
 header {
     background-color: #f8b195
+    
+}
+
+h1 {
+    font-family: 'Questrial', sans-serif;
 }
 
 /* Main content */
