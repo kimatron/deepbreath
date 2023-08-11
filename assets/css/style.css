@@ -121,13 +121,22 @@ main {
 .benefits{
     background-color: #ffffff;
     color:#35537d;
+    font-size: 18px;
   
             background-image: none;
             /* Remove the background image */
             
         }
     /* Set white background color for the entire page */
-
+    /* adding caption text to match image mid paragraphs on benefits page*/
+.caption {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+    /*  color for caption text */
+    font-size: 14px;
+    /* font size for caption text */
+}
 
 main {
     padding: 40px;
