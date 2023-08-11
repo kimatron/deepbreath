@@ -1,3 +1,5 @@
+<h1>Deep Breath</h1>
+
 ![Deep Breath logo](assets/images/dblogo.png)
 
 <h1>Deep Breath</h1>
@@ -45,6 +47,7 @@ Sourced some style code for adjusting photo size from various sources online :
 w3schools.com
 Stackoverflow.com
 Rewatched Love Running project from Code Institute for inspiration on order to set up html and css.
+Used https://coolors.co/ to get a color scheme to match my images.
 
 Thanks to my fellow coding student Viola Bergere for keeping me motivated and being my second pair of eyes when I was missing a curly bracket or colon when I was fit to smash my computer out the window :)
  
