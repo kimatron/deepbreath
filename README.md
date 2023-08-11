@@ -38,6 +38,7 @@ In the future adding a feature to index local dive shops in a users area via a m
 * accessibility is important (alt)
  <br>
  <h3>Bugs</h3>
+ For some reason I can't see footer social media Icons in my preview, but they show in the deployed version. Spent too long trying to figure out why and wasted a lot of time on it
 <h3>Credits</h3>
 Used code Institute template to start off project.
 Sourced some style code for adjusting photo size from various sources online :

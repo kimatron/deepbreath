@@ -21,7 +21,7 @@ body {
     flex-direction: column;
 
     /*generic project styles*/
-    color: #f67280;
+    color: #35537d;
     font-family: "Catamaran", sans-serif;
 }
 
@@ -120,6 +120,7 @@ main {
 /* Additional CSS for the benefits.html page */
 .benefits{
     background-color: #ffffff;
+    color:#35537d;
   
             background-image: none;
             /* Remove the background image */
@@ -131,6 +132,49 @@ main {
 main {
     padding: 40px;
     /* Adjust padding as needed */
+}
+
+/* Style the white box background */
+/* Style the white box background */
+#background-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent white */
+    padding: 20px;
+    /* Add padding inside the white box */
+    position: absolute;
+    top: 50%;
+    /* Center vertically */
+    left: 20px;
+    /* Adjust left position to move the box to the left */
+    transform: translateY(-50%);
+    /* Center vertically using transform */
+    width: 300px;
+    /* Set the width of the white box */
+}
+
+/* Style the text within the white box */
+#background-box {
+    font-size: 38px;
+}
+
+
+#background-box h2,
+#background-box p,
+#background-box ul {
+    color: #35537d;
+    font-size: 58px;
+    /* Dark blue text color */
+}
+
+#background-box h2 {
+    font-size: 48px;
+    /* Increase the font size for the heading */
+}
+
+#background-box p,
+#background-box li {
+    font-size: 38px;
+    /* Increase the font size for paragraphs and list items */
 }
 /* Footer */
 footer {
