@@ -116,6 +116,22 @@ main {
         /* New addition: Adjust width as needed */
         height: auto;
 }
+
+/* Additional CSS for the benefits.html page */
+.benefits{
+    background-color: #ffffff;
+  
+            background-image: none;
+            /* Remove the background image */
+            
+        }
+    /* Set white background color for the entire page */
+
+
+main {
+    padding: 40px;
+    /* Adjust padding as needed */
+}
 /* Footer */
 footer {
     background-color: #41a7ad;
