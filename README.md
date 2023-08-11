@@ -25,19 +25,20 @@ A gallery page was added to include images for users to visualise what underwate
 <h3>- Benefits</h3>
 A benefits page was added to show users the mental and physical health benefits of scuba diving.
 
+
 <h1>Potential Future Features</h1>
 In the future adding a feature to index local dive shops in a users area via a mapping tool and linking them to dive shops in their locality would be beneficial rather than having to contact us and wait for a response.
 
-This could also be beneficial to _us_ by way of commission of sales possibly.
-<br>
-
+ This could also be beneficial to *us* by way of commission of sales possibly.
+ <br>
+ 
  <h1>Testing</h1>
  On completion of the design, the site was tested across multiple browsers and platforms. The site has been built using Chrome, and so it was also tested across Microsoft Edge and Firefox for desktops and larger screen sizes, whilst tested using Safari and Chrome on mobile and tablet devices.
 
-- Check validator websites for HTML and CSS and Accessibility when finished and save screenshots as proof here\*
-- use lighthouse
-- accessibility is important (alt)
-<br>
+* Check validator websites for HTML and CSS and Accessibility when finished and save screenshots as proof here*
+* use lighthouse
+* accessibility is important (alt)
+ <br>
  <h3>Bugs</h3>
  For some reason I can't see footer social media Icons in my preview, but they show in the deployed version. Spent too long trying to figure out why and wasted a lot of time on it
 <h3>Credits</h3>
@@ -50,12 +51,11 @@ Rewatched Love Running project from Code Institute for inspiration on order to s
 Used https://coolors.co/ to get a color scheme to match my images.
 
 Thanks to my fellow coding student Viola Bergere for keeping me motivated and being my second pair of eyes when I was missing a curly bracket or colon when I was fit to smash my computer out the window :)
-
+ 
 template to start project
 Used fonts from googlefonts
 credit image sourcesc
 credit other sources where necessary...
-
 ---
 
 Happy diving!
