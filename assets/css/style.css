@@ -35,13 +35,15 @@ header {
         justify-content: space-between;
         padding: 0 40px;
         /*remove this later if it doesn't do anything */
-        width: 100%;
-        box-shadow: 0 113px 113px #f67280;
+      
     
 }
 
 h1 {
     font-family: 'Questrial', sans-serif;
+    text-transform: uppercase;
+    color:#35537d;
+    text-decoration: underline
 }
 
 /* Main content */
