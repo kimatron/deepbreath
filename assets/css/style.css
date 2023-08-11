@@ -86,7 +86,11 @@ main {
     /* Center the image horizontally and vertically */
     background-repeat: no-repeat;
     /* Prevent the image from repeating */
-    /* ... other styles ... */
+/* Increase the height to make the main section taller */
+    height: 100vh;
+    /* Adjust the value as needed */
+    /* Enable scrolling for content that overflows the main section */
+    overflow-y: auto;
 }
 
 /* Footer */
