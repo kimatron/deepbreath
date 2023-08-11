@@ -27,7 +27,7 @@ body {
 
 /*Header*/
 header {
-    background-color: #f8b195;
+    background-color: #41a7ad;
     padding: 5% 5%;
     /* Adjust padding using viewport units */
     height: auto;
@@ -78,7 +78,7 @@ main {
 }
 
 main {
-    background-image: url(assets/images/main-image.JPG);
+    background-image: url('../images/main-image.JPG');
    
     background-size: cover;
     /* Adjust the background sizing as needed */
@@ -91,7 +91,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #f8b195;
+    background-color: #41a7ad;
     color: #35537d;
 }
 
