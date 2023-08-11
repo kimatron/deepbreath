@@ -4,7 +4,7 @@ font-family: 'Catamaran',
 sans-serif;
 font-family: 'Questrial',
 sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;400;500;600;700;800&family=Questrial&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;400;500;600;700;800&family=Questrial&display=swap");
 
 /* asterix selector to ovveride default styles added by the browswer */
 
@@ -22,10 +22,8 @@ body {
 
     /*generic project styles*/
     color: #f67280;
-    font-family: 'Catamaran', sans-serif;
+    font-family: "Catamaran", sans-serif;
 }
-
-
 
 /*Header*/
 header {
@@ -33,34 +31,42 @@ header {
     height: auto;
     display: flex;
     justify-content: space-between;
-    padding: 40px 40px; /*added padding to push the text down */
+    padding: 40px 40px;
+    /*added padding to push the text down */
     /*remove this later if it doesn't do anything */
-
-
 }
 
 h1 {
-    font-family: 'Questrial', sans-serif;
+    font-family: "Questrial", sans-serif;
     text-transform: uppercase;
     color: #35537d;
     text-decoration: underline;
+
 }
+
 
 #menu-nav li {
     display: inline;
     font-size: 130%;
-    font-family: 'Questrial', sans-serif;
+    font-family: "Questrial", sans-serif;
     letter-spacing: 3px;
     text-transform: uppercase;
     padding: 0 30px;
     border-right: 2px solid #f8b195;
     list-style-type: none;
+    transition: color 0.3s ease;
+    /* Added transition for smooth color change */
 }
+
+.hover:hover {
+    color: #ffffff;
+    /* Change text color when hovering */
+}
+
 
 /* Main content */
 main {
-    background-color:
-        #35537d;
+    background-color: #35537d;
     /* main main content take up any extra space to push footer down */
     flex: 1 0 auto;
 }
@@ -77,3 +83,20 @@ footer ul {
 }
 
 /* Media Queries */
+
+/* small and thin sized phone screens */
+
+@media screen and (max-width: 400px) {
+    #menu-nav {
+        display: grid;
+        font-size: 0.8em;
+    }
+
+    #menu-nav li {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 40px;
+        border-right: none;
+        border-bottom: 2px solid #35537d;
+    }
+}
