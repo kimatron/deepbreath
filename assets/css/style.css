@@ -28,7 +28,7 @@ body {
 /*Header*/
 header {
     background-color: #f8b195;
-    padding: 5% 10%;
+    padding: 5% 5%;
     /* Adjust padding using viewport units */
     height: auto;
     display: flex;
@@ -77,15 +77,45 @@ main {
     flex: 1 0 auto;
 }
 
+main {
+    background-image: url(assets/images/main-image.JPG);
+   
+    background-size: cover;
+    /* Adjust the background sizing as needed */
+    background-position: center;
+    /* Center the image horizontally and vertically */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+    /* ... other styles ... */
+}
+
 /* Footer */
 footer {
     background-color: #f8b195;
     color: #35537d;
 }
 
-footer ul {
-    list-style: none;
-    padding: 0 40px;
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    /* Add some spacing between the content and the icons */
+}
+
+.social-icon {
+    display: inline-block;
+    /* Display the icons in a line */
+    margin: 0 10px;
+    /* Add spacing between the icons */
+    font-size: 24px;
+    /* Adjust the icon size as needed */
+    color: #35537d;
+    /* Set the icon color */
+}
+
+.social-icon:hover {
+    color: #f67280;
+    /* Change icon color on hover */
 }
 
 /* Media Queries */
