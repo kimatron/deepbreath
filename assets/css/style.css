@@ -138,6 +138,20 @@ main {
     /* font size for caption text */
 }
 
+.contact-button {
+    background-color: #f67280;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: #ff4757;
+}
+
 main {
     padding: 40px;
     /* Adjust padding as needed */
