@@ -39,7 +39,13 @@ In the future adding a feature to index local dive shops in a users area via a m
  <br>
  <h3>Bugs</h3>
 <h3>Credits</h3>
-Used code institute 
+Used code Institute template to start off project.
+Sourced some style code for adjusting photo size from various sources online :
+w3schools.com
+Stackoverflow.com
+Rewatched Love Running project from Code Institute for inspiration on order to set up html and css.
+
+Thanks to my fellow coding student Viola Bergere for keeping me motivated and being my second pair of eyes when I was missing a curly bracket or colon when I was fit to smash my computer out the window :)
  
 template to start project
 Used fonts from googlefonts
