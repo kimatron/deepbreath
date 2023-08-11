@@ -40,7 +40,6 @@ h1 {
     text-transform: uppercase;
     color: #35537d;
     text-decoration: underline;
-
 }
 
 /* Add margin to the right of the logo icon */
@@ -54,7 +53,6 @@ h1 {
     vertical-align: middle;
     /* Vertically align text with the icon */
 }
-
 
 #menu-nav li {
     display: inline;
@@ -81,7 +79,6 @@ h1 {
     /* Change text color when hovering */
 }
 
-
 /* Main content */
 main {
     background-color: #35537d;
@@ -90,15 +87,15 @@ main {
 }
 
 main {
-    background-image: url('../images/main-image.JPG');
-   
+    background-image: url("../images/main-image.JPG");
+
     background-size: cover;
     /* Adjust the background sizing as needed */
     background-position: center;
     /* Center the image horizontally and vertically */
     background-repeat: no-repeat;
     /* Prevent the image from repeating */
-/* Increase the height to make the main section taller */
+    /* Increase the height to make the main section taller */
     height: 100vh;
     /* Adjust the value as needed */
     /* Enable scrolling for content that overflows the main section */
@@ -125,22 +122,22 @@ main {
     max-width: 100%;
     max-height: 100%;
     width: auto;
-        /* New addition: Adjust width as needed */
-        height: auto;
+    /* New addition: Adjust width as needed */
+    height: auto;
 }
 
 /* Additional CSS for the benefits.html page */
-.benefits{
+.benefits {
     background-color: #ffffff;
-    color:#35537d;
+    color: #35537d;
     font-size: 18px;
-  
-            background-image: none;
-            /* Remove the background image */
-            
-        }
-    /* Set white background color for the entire page */
-    /* adding caption text to match image mid paragraphs on benefits page*/
+
+    background-image: none;
+    /* Remove the background image */
+}
+
+/* Set white background color for the entire page */
+/* adding caption text to match image mid paragraphs on benefits page*/
 .caption {
     text-align: center;
     font-style: italic;
@@ -192,7 +189,6 @@ main {
     font-size: 38px;
 }
 
-
 #background-box h2,
 #background-box p,
 #background-box ul {
@@ -213,9 +209,110 @@ main {
 }
 
 /* Contact page styling */
+
+/* Style for Contact Form Container */
+#contact-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #35537d;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    /* Adjust the width as needed */
+    margin: 0 auto;
+    /* Center the form horizontally */
+}
+
+/* Center-align the form headings */
+#contact-form h2,
+#contact-form p {
+    text-align: center;
+}
+
+/* Style for Contact Form Container */
+#contact-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #35537d;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    /* Adjust the width as needed */
+    margin: 0 auto;
+    /* Center the form horizontally */
+}
+
+/* Center-align the form headings */
+#contact-form h2,
+#contact-form p {
+    text-align: center;
+}
+/* Style for Contact Form Fields and Button */
+#contact-form label,
+#contact-form input,
+#contact-form textarea,
+#contact-form button {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+/* Style for Contact Form Fields and Button */
+#contact-form label,
+#contact-form input,
+#contact-form textarea,
+#contact-form button {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
 .white-text {
     color: #ffffff;
 }
+
+/* Transparent Box */
+.transparent-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid #f8b195;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.transparent-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.transparent-box label,
+.transparent-box input,
+.transparent-box textarea,
+.transparent-box button {
+    margin: 10px 0;
+    width: 100%;
+}
+
+/* Style for Submit Button on contact form */
+/* Style for Submit Button Container */
+.submit-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
 /* Footer */
 footer {
     background-color: #41a7ad;
@@ -226,6 +323,3410 @@ footer {
     text-align: center;
     /* Center align the icons within the footer */
     margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+
+.submit-button {
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    background-color: #5773a1;
+}
+
+/* Footer */
+footer {
+    background-color: #41a7ad;
+    color: #35537d;
+}
+
+#social-icons {
+    text-align: center;
+    /* Center align the icons within the footer */
+    margin-top: 20px;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    text-align: center;
     /* Add some spacing between the content and the icons */
 }
 
@@ -250,7 +3751,6 @@ footer {
 /* small and thin sized phone screens */
 
 @media screen and (max-width: 400px) {
-    
     /* disabling this section for now
     #menu-nav {
         display: grid;
