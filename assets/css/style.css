@@ -71,5 +71,9 @@ footer {
     color: #35537d;
 }
 
+footer ul {
+    list-style: none;
+    padding: 0 40px;
+}
 
 /* Media Queries */
