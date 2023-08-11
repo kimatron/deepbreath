@@ -211,6 +211,11 @@ main {
     font-size: 38px;
     /* Increase the font size for paragraphs and list items */
 }
+
+/* Contact page styling */
+.white-text {
+    color: #ffffff;
+}
 /* Footer */
 footer {
     background-color: #41a7ad;
