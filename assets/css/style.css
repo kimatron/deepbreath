@@ -28,12 +28,11 @@ body {
 /*Header*/
 header {
     background-color: #f8b195;
+    padding: 5% 10%;
+    /* Adjust padding using viewport units */
     height: auto;
     display: flex;
     justify-content: space-between;
-    padding: 40px 40px;
-    /*added padding to push the text down */
-    /*remove this later if it doesn't do anything */
 }
 
 h1 {
@@ -56,6 +55,13 @@ h1 {
     list-style-type: none;
     transition: color 0.3s ease;
     /* Added transition for smooth color change */
+}
+
+#menu-nav li {
+    /* ... other styles ... */
+    padding: 0 2vw;
+    /* Adjust padding using viewport units */
+    /* ... other styles ... */
 }
 
 .hover:hover {
@@ -87,6 +93,8 @@ footer ul {
 /* small and thin sized phone screens */
 
 @media screen and (max-width: 400px) {
+    
+    /* disabling this section for now
     #menu-nav {
         display: grid;
         font-size: 0.8em;
@@ -98,5 +106,5 @@ footer ul {
         line-height: 40px;
         border-right: none;
         border-bottom: 2px solid #35537d;
-    }
+    } */
 }
