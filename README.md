@@ -46,6 +46,7 @@ Used code Institute template to start off project.
 Sourced some style code for adjusting photo size from various sources online :
 w3schools.com
 Stackoverflow.com
+www.freecodecamp.org
 Rewatched Love Running project from Code Institute for inspiration on order to set up html and css.
 Used https://coolors.co/ to get a color scheme to match my images.
 

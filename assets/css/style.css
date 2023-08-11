@@ -43,6 +43,18 @@ h1 {
 
 }
 
+/* Add margin to the right of the logo icon */
+#logo .fa-water {
+    margin-right: 10px;
+    /* Adjust the margin as needed */
+}
+
+/* Style the logo text */
+#logo .logo-text {
+    vertical-align: middle;
+    /* Vertically align text with the icon */
+}
+
 
 #menu-nav li {
     display: inline;
