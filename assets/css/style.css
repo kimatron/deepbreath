@@ -13,51 +13,62 @@ sans-serif; */
     margin: 0;
     box-sizing: border-box;
 }
- /* General styles */
- body {
+
+/* General styles */
+body {
     min-height: 100vh;
     display: flex;
-    flex-direction:column;
-    
+    flex-direction: column;
+
     /*generic project styles*/
     color: #f67280;
-    font-family: 'Catamaran', sans-serif;;
- }
- 
+    font-family: 'Catamaran', sans-serif;
+}
+
 
 
 /*Header*/
 header {
     background-color: #f8b195;
-        background-color:;
     height: auto;
-        display: flex;
-        justify-content: space-between;
-        padding: 0 40px;
-        /*remove this later if it doesn't do anything */
-      
-    
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px; /*added padding to push the text down */
+    /*remove this later if it doesn't do anything */
+
+
 }
 
 h1 {
     font-family: 'Questrial', sans-serif;
     text-transform: uppercase;
-    color:#35537d;
-    text-decoration: underline
+    color: #35537d;
+    text-decoration: underline;
+}
+
+#menu-nav li {
+    display: inline;
+    font-size: 130%;
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 0 30px;
+    border-right: 2px solid #f8b195;
+    list-style-type: none;
 }
 
 /* Main content */
 main {
-    background-color: 
-    #35537d;
+    background-color:
+        #35537d;
     /* main main content take up any extra space to push footer down */
     flex: 1 0 auto;
 }
 
 /* Footer */
 footer {
-background-color: #f8b195 ;
-color: #35537d;
+    background-color: #f8b195;
+    color: #35537d;
 }
 
 
