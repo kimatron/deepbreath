@@ -23,13 +23,13 @@ body {
     /*generic project styles*/
     color: #35537d;
     font-family: "Catamaran", sans-serif;
-    font-size: medium;
+    font-size: 20px;
 }
 
 /*Header*/
 header {
     background-color: #41a7ad;
-    padding: 5% 5%;
+    padding: 3% 3%;
     /* Adjust padding using viewport units */
     height: auto;
     display: flex;
@@ -94,7 +94,7 @@ main {
 }
 
 main {
-    background-image: url("../images/main-image.JPG");
+    background-image: url("../images/main-image.jpg");
 
     background-size: cover;
     /* Adjust the background sizing as needed */
@@ -105,9 +105,14 @@ main {
     /* Increase the height to make the main section taller */
     height: 100vh;
     /* Adjust the value as needed */
+    flex-grow: 1;
     /* Enable scrolling for content that overflows the main section */
-    overflow-y:hidden;
-}
+    overflow-y:scroll;
+    padding-right: 15px;
+        /* Add padding to make space for the scrollbar */
+        
+    }
+
 
 #title-text {
     color: #ffffff;
@@ -192,6 +197,29 @@ main {
 }
 
 /* Additional CSS for the benefits.html page */
+#heading-center {
+    text-align:center;
+}
+.title-style{
+    
+            text-align: center;
+            font-size: 36px;
+            color: #35537d;
+            margin-top: 40px;
+            /* Add margin for spacing */
+            padding: 10px;
+            /* Add padding for background */
+            background-color: #f8b195;
+            /* Set background color */
+            border-radius: 5px;
+            /* Add rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /* Add subtle shadow */
+            max-width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
 .benefits {
     background-color: #ffffff;
     color: #35537d;
@@ -362,29 +390,48 @@ main {
     justify-content: center;
     align-items: center;
     height: 300px;
+    margin-bottom: 20px;
+    margin-top: 40px;
     /* Adjust the height as needed */
 }
 
 footer {
     background-color: #41a7ad;
     color: #35537d;
+    text-align: center;
+        padding: 10px 0;
+        position: sticky;
+            /* Stick to the bottom when scrolling */
+        bottom: 0;
+        /* Stick to the bottom of the viewport */
+        width: 99%;
+        /* Full width */
+         
 }
 
-#social-icons {
+
+#social-icon {
 display: flex;
     justify-content: center;
 }
 
 .social-icons {
-    list-style: none;
+    list-style-type: none;
         display: flex;
         gap: 10px;
+        align-items: center;
         /* Adjust the gap between icons as needed */
+        justify-content: space-evenly;
     color: #C0c9cb;
     /* Set the icon color */
 }
 
-.social-icon:hover {
+.social-icons li {
+    font-size: 150%;
+    margin: 0 50px;
+}
+
+.social-icons:hover {
     color: #f67280;
     /* Change icon color on hover */
 }
