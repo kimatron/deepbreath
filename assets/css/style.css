@@ -9,121 +9,121 @@ sans-serif; */
 /* asterix selector to ovveride default styles added by the browswer */
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /* General styles */
 body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 
-  /*generic project styles*/
-  color: #35537d;
-  font-family: "Catamaran", sans-serif;
+    /*generic project styles*/
+    color: #35537d;
+    font-family: "Catamaran", sans-serif;
 }
 
 /*Header*/
 header {
-  background-color: #41a7ad;
-  padding: 5% 5%;
-  /* Adjust padding using viewport units */
-  height: auto;
-  display: flex;
-  justify-content: space-between;
+    background-color: #41a7ad;
+    padding: 5% 5%;
+    /* Adjust padding using viewport units */
+    height: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 h1 {
-  font-family: "Questrial", sans-serif;
-  text-transform: uppercase;
-  color: #35537d;
-  text-decoration: underline;
+    font-family: "Questrial", sans-serif;
+    text-transform: uppercase;
+    color: #35537d;
+    text-decoration: underline;
 }
 
 /* Add margin to the right of the logo icon */
 #logo .fa-water {
-  margin-right: 10px;
-  /* Adjust the margin as needed */
+    margin-right: 10px;
+    /* Adjust the margin as needed */
 }
 
 /* Style the logo text */
 #logo .logo-text {
-  vertical-align: middle;
-  /* Vertically align text with the icon */
+    vertical-align: middle;
+    /* Vertically align text with the icon */
 }
 
 #menu-nav li {
-  display: inline;
-  font-size: 130%;
-  font-family: "Questrial", sans-serif;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  padding: 0 30px;
-  border-right: 2px solid #f8b195;
-  list-style-type: none;
-  transition: color 0.3s ease;
-  /* Added transition for smooth color change */
+    display: inline;
+    font-size: 130%;
+    font-family: "Questrial", sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 0 30px;
+    border-right: 2px solid #f8b195;
+    list-style-type: none;
+    transition: color 0.3s ease;
+    /* Added transition for smooth color change */
 }
 
 #menu-nav li {
-  /* ... other styles ... */
-  padding: 0 2vw;
-  /* Adjust padding using viewport units */
-  /* ... other styles ... */
+    /* ... other styles ... */
+    padding: 0 2vw;
+    /* Adjust padding using viewport units */
+    /* ... other styles ... */
 }
 
 .hover:hover {
-  color: #ffffff;
-  /* Change text color when hovering */
+    color: #ffffff;
+    /* Change text color when hovering */
 }
 
 /* Main content */
 main {
-  background-color: #35537d;
-  /* main main content take up any extra space to push footer down */
-  flex: 1 0 auto;
+    background-color: #35537d;
+    /* main main content take up any extra space to push footer down */
+    flex: 1 0 auto;
 }
 
 main {
-  background-image: url("../images/main-image.JPG");
+    background-image: url("../images/main-image.JPG");
 
-  background-size: cover;
-  /* Adjust the background sizing as needed */
-  background-position: center;
-  /* Center the image horizontally and vertically */
-  background-repeat: no-repeat;
-  /* Prevent the image from repeating */
-  /* Increase the height to make the main section taller */
-  height: 100vh;
-  /* Adjust the value as needed */
-  /* Enable scrolling for content that overflows the main section */
-  overflow-y: auto;
+    background-size: cover;
+    /* Adjust the background sizing as needed */
+    background-position: center;
+    /* Center the image horizontally and vertically */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+    /* Increase the height to make the main section taller */
+    height: 100vh;
+    /* Adjust the value as needed */
+    /* Enable scrolling for content that overflows the main section */
+    overflow-y: auto;
 }
 
 /* Gallery styles */
 /* Gallery styles */
 .gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
 }
 
 .gallery-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .gallery-item img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  /* New addition: Adjust width as needed */
-  height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    /* New addition: Adjust width as needed */
+    height: auto;
 }
 
 .gallery-container {
@@ -137,6 +137,7 @@ main {
     font-size: 24px;
     margin-bottom: 20px;
 }
+
 To make your gallery page neater and more aesthetically pleasing,
 you can apply some styling changes to your existing code. Here's a modified version of your code with added CSS styles for a cleaner and more organized gallery layout:
 
@@ -175,15 +176,15 @@ and stylesheets --></head><body>< !-- Header --><header>< !-- Logo and navigatio
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
-        
+
+
 }
 
 .gallery-item img {
     max-width: 100%;
     height: auto;
     /* this line is to ensure rounded corners for all images */
-        border-radius: 10px;
+    border-radius: 10px;
 }
 
 /* Back to Top button styles */
@@ -199,125 +200,128 @@ and stylesheets --></head><body>< !-- Header --><header>< !-- Logo and navigatio
 .back-to-top:hover {
     text-decoration: underline;
 }
+
 /* Additional CSS for the benefits.html page */
 .benefits {
-  background-color: #ffffff;
-  color: #35537d;
-  font-size: 18px;
+    background-color: #ffffff;
+    color: #35537d;
+    font-size: 18px;
 
-  background-image: none;
-  /* Remove the background image */
+    background-image: none;
+    /* Remove the background image */
 }
 
 /* Set white background color for the entire page */
 /* adding caption text to match image mid paragraphs on benefits page*/
 .caption {
-  text-align: center;
-  font-style: italic;
-  color: #888;
-  /*  color for caption text */
-  font-size: 14px;
-  /* font size for caption text */
+    text-align: center;
+    font-style: italic;
+    color: #888;
+    /*  color for caption text */
+    font-size: 14px;
+    /* font size for caption text */
 }
 
 .contact-button {
-  background-color: #41a7ad;
-  color: #ffffff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
+    background-color: #41a7ad;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .contact-button:hover {
-  background-color: #ff4757;
+    background-color: #ff4757;
 }
 
 main {
-  padding: 40px;
-  /* Adjust padding as needed */
+    padding: 40px;
+    /* Adjust padding as needed */
 }
 
 /* Style the white box background */
 /* Style the white box background */
 #background-box {
-  background-color: rgba(255, 255, 255, 0.8);
-  /* Semi-transparent white */
-  padding: 20px;
-  /* Add padding inside the white box */
-  position: absolute;
-  top: 50%;
-  /* Center vertically */
-  left: 20px;
-  /* Adjust left position to move the box to the left */
-  transform: translateY(-50%);
-  /* Center vertically using transform */
-  width: 300px;
-  /* Set the width of the white box */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent white */
+    padding: 20px;
+    /* Add padding inside the white box */
+    position: absolute;
+    top: 50%;
+    /* Center vertically */
+    left: 20px;
+    /* Adjust left position to move the box to the left */
+    transform: translateY(-50%);
+    /* Center vertically using transform */
+    width: 300px;
+    /* Set the width of the white box */
 }
 
 /* Style the text within the white box */
 #background-box {
-  font-size: 38px;
+    font-size: 38px;
 }
 
 #background-box h2,
 #background-box p,
 #background-box ul {
-  color: #35537d;
-  font-size: 58px;
-  /* Dark blue text color */
+    color: #35537d;
+    font-size: 58px;
+    /* Dark blue text color */
 }
 
 #background-box h2 {
-  font-size: 48px;
-  /* Increase the font size for the heading */
+    font-size: 48px;
+    /* Increase the font size for the heading */
 }
 
 #background-box p,
 #background-box li {
-  font-size: 38px;
-  /* Increase the font size for paragraphs and list items */
+    font-size: 38px;
+    /* Increase the font size for paragraphs and list items */
 }
 
 /* Contact page styling */
 
 /* Style for Contact Form Container */
 #contact-form {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 2px solid #35537d;
-  padding: 20px;
-  border-radius: 10px;
-  width: 40%;
-  /* Adjust the width as needed */
-  margin: 0 auto;
-  /* Center the form horizontally */
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #35537d;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    /* Adjust the width as needed */
+    margin: 0 auto;
+    /* Center the form horizontally */
 }
 
 /* Center-align the form headings */
 #contact-form h2,
 #contact-form p {
-  text-align: center;
+    text-align: center;
 }
 
 /* Style for Contact Form Container */
 #contact-form {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 2px solid #35537d;
-  padding: 20px;
-  border-radius: 10px;
-  width: 40%;
-  /* Adjust the width as needed */
-  margin: 0 auto;
-  /* Center the form horizontally */
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #35537d;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    /* Adjust the width as needed */
+    margin: 0 auto;
+    /* Center the form horizontally */
 }
 
 /* Center-align the form headings */
 #contact-form h2,
 #contact-form p {
-  text-align: center;
-padding: 20px;}
+    text-align: center;
+    padding: 20px;
+}
+
 /* void the white text for now
 .white-text {
   color: #ffffff; } */
@@ -325,52 +329,53 @@ padding: 20px;}
 
 /* Transparent Box */
 .transparent-box {
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 2px solid #f8b195;
-  padding: 20px;
-  border-radius: 10px;
-  margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid #f8b195;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
 }
 
 .transparent-box form {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .transparent-box label,
 .transparent-box input,
 .transparent-box textarea,
 .transparent-box button {
-  margin: 10px 0;
-  width: 100%;
+    margin: 10px 0;
+    width: 100%;
 }
 
 /* Style for Submit Button on contact form */
 /* Style for Submit Button Container */
 .submit-button-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .submit-button {
-  background-color: #35537d;
-  color: white;
-  border: none;
-  padding: 6px 10px;
-  /* Adjust padding to make the button smaller */
-  border-radius: 5px;
-  cursor: pointer;
+    background-color: #35537d;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    /* Adjust padding to make the button smaller */
+    border-radius: 5px;
+    cursor: pointer;
 }
 
- /* Style for the map container */
- .map-container {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     height: 300px;
-     /* Adjust the height as needed */
- }
+/* Style for the map container */
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    /* Adjust the height as needed */
+}
+
 footer {
     background-color: #41a7ad;
     color: #35537d;
@@ -423,27 +428,64 @@ footer {
         border-right: none;
         /* Remove right border from menu items */
     }
-        /* Adjust main content styles */
-        main {
-            padding: 10px;
-            /* Reduce padding for main content */
-        }
-    
-        /* Adjust footer styles */
-        footer {
-            padding: 10px;
-        }
-    
-        /* Adjust gallery styles */
-        .gallery {
-            grid-template-columns: repeat(2, 1fr);
-            /* Display 2 columns on small screens */
-            gap: 10px;
-            /* Reduce gap between gallery items */
-        }
-    
-        .gallery-item img {
-            max-width: 100%;
-            /* Ensure images scale down on small screens */
-        }
-        }
+
+    /* Adjust main content styles */
+    main {
+        padding: 10px;
+        /* Reduce padding for main content */
+    }
+
+    /* Adjust footer styles */
+    footer {
+        padding: 10px;
+    }
+
+    /* Adjust gallery styles */
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        /* Display 2 columns on small screens */
+        gap: 10px;
+        /* Reduce gap between gallery items */
+    }
+
+    .gallery-item img {
+        max-width: 100%;
+        /* Ensure images scale down on small screens */
+    }
+
+
+/* Adjust contact-form styles */
+#contact-form {
+    width: 90%;
+    /* Make the form container slightly narrower */
+    margin: 20px auto;
+    /* Add some margin for spacing */
+}
+
+/* Center-align the form headings */
+#contact-form h2,
+#contact-form p {
+    text-align: center;
+}
+/* Adjust form-group styles */
+.form-group label,
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    /* Make form elements full width */
+}
+  /* Adjust submit-button styles */
+  .submit-button {
+      margin: 10px auto;
+      /* Center-align the button */
+      width: 100%;
+      /* Make the button full width */
+  }
+  /* Adjust map styles */
+  #map iframe {
+      width: 100%;
+      /* Make the map iframe full width */
+      height: 200px;
+      /* Set a fixed height for the map */
+  }
+}
