@@ -245,9 +245,10 @@ main {
 #contact-form p {
   text-align: center;
 padding: 20px;}
+/* void the white text for now
 .white-text {
-  color: #ffffff;
-}
+  color: #ffffff; } */
+
 
 /* Transparent Box */
 .transparent-box {
@@ -288,6 +289,15 @@ padding: 20px;}
   border-radius: 5px;
   cursor: pointer;
 }
+
+ /* Style for the map container */
+ .map-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 300px;
+     /* Adjust the height as needed */
+ }
 footer {
     background-color: #41a7ad;
     color: #35537d;
