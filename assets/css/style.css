@@ -221,7 +221,7 @@ main {
     margin-right: auto;
 }
 
- .benefits {
+.benefits {
     background-color: #ffffff;
     color: #35537d;
     font-size: 18px;
@@ -443,7 +443,7 @@ main {
     flex: 1;
     max-width: 755;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.8);
     border: 2px solid #35537d;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -457,8 +457,8 @@ main {
 }
 
 .contact-box p {
-    font-size: 18px;
-    color: #555;
+    font-size: 19px;
+    color: #3C5755;
     margin-bottom: 10px;
 }
 
@@ -469,7 +469,7 @@ main {
 
 .contact-box li {
     font-size: 16px;
-    color: #555;
+    color: #35537d;
     margin-bottom: 5px;
 }
 
@@ -496,7 +496,7 @@ footer {
 .social-icons {
     list-style-type: none;
     display: flex;
-    gap: 5px;
+    gap: 2px;
     align-items: right;
     /* Adjust the gap between icons as needed */
     justify-content: space-evenly;
