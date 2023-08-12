@@ -148,7 +148,7 @@ main {
 
 /* Style for the gallery heading */
 .gallery-heading {
-    color: #35537d;
+    color: #ffffff;
     font-size: 24px;
     margin-bottom: 20px;
 }
@@ -211,7 +211,7 @@ main {
     /* Add padding for background */
     background-color: rgba(255, 255, 255, 0.9);
     /* Set background color */
-border: 2px solid #35537d;
+    border: 2px solid #35537d;
     border-radius: 10px;
     /* Add rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -221,10 +221,7 @@ border: 2px solid #35537d;
     margin-right: auto;
 }
 
-]
-
-
-.benefits {
+ .benefits {
     background-color: #ffffff;
     color: #35537d;
     font-size: 18px;
@@ -605,5 +602,20 @@ footer {
         /* Make the map iframe full width */
         height: 200px;
         /* Set a fixed height for the map */
+    }
+
+    /* Responsive adjustments for smaller screens */
+    @media screen and (max-width: 768px) {
+        .container {
+            height: auto;
+            /* Reset height to allow content to expand */
+        }
+
+        .contact-box {
+            max-width: 90%;
+            /* Adjust the width for smaller screens */
+            padding: 10px;
+            /* Reduce padding for smaller screens */
+        }
     }
 }
