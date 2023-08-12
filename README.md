@@ -38,8 +38,8 @@ In the future adding a feature to index local dive shops in a users area via a m
 * Check validator websites for HTML and CSS and Accessibility when finished and save screenshots as proof here*
 * use lighthouse
 * accessibility is important (alt)
- <br>
- <h3>Bugs</h3>
+    <br>
+     <h3>Bugs</h3>
  For some reason I can't see footer social media Icons in my preview, but they show in the deployed version. Spent too long trying to figure out why and wasted a lot of time on it
 <h3>Credits</h3>
 Used code Institute template to start off project.
