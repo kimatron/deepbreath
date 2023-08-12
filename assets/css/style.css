@@ -398,3 +398,52 @@ footer {
     color: #f67280;
     /* Change icon color on hover */
 }
+
+/* Apply responsive styles for phone-sized screens (up to 480px width) */
+@media screen and (max-width: 480px) {
+
+    /* Adjust header styles */
+    header {
+        padding: 3% 5%;
+    }
+
+    /* Adjust menu-nav styles */
+    #menu-nav {
+        flex-direction: column;
+        /* Stack menu items vertically */
+        align-items: center;
+        /* Center menu items horizontally */
+        padding-top: 10px;
+        /* Add some space between logo and menu items */
+    }
+
+    #menu-nav li {
+        padding: 10px 0;
+        /* Add spacing between menu items */
+        border-right: none;
+        /* Remove right border from menu items */
+    }
+        /* Adjust main content styles */
+        main {
+            padding: 10px;
+            /* Reduce padding for main content */
+        }
+    
+        /* Adjust footer styles */
+        footer {
+            padding: 10px;
+        }
+    
+        /* Adjust gallery styles */
+        .gallery {
+            grid-template-columns: repeat(2, 1fr);
+            /* Display 2 columns on small screens */
+            gap: 10px;
+            /* Reduce gap between gallery items */
+        }
+    
+        .gallery-item img {
+            max-width: 100%;
+            /* Ensure images scale down on small screens */
+        }
+        }
