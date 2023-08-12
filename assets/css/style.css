@@ -382,20 +382,16 @@ footer {
 }
 
 #social-icons {
-    text-align: center;
-    /* Center align the icons within the footer */
-    margin-top: 20px;
-    /* Add some spacing between the content and the icons */
+display: flex;
+    justify-content: center;
 }
 
-.social-icon {
-    display: inline-block;
-    /* Display the icons in a line */
-    margin: 0 10px;
-    /* Add spacing between the icons */
-    font-size: 24px;
-    /* Adjust the icon size as needed */
-    color: #35537d;
+.social-icons {
+    list-style: none;
+        display: flex;
+        gap: 10px;
+        /* Adjust the gap between icons as needed */
+    color: #f67280;
     /* Set the icon color */
 }
 
