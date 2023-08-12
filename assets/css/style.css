@@ -7,7 +7,7 @@ sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;400;500;600;700;800&family=Questrial&display=swap");
 
 /* asterix selector to ovveride default styles added by the browswer */
-
+/* initial layout used from love running for general styles to set up page */
 * {
     padding: 0;
     margin: 0;
@@ -23,6 +23,7 @@ body {
     /*generic project styles*/
     color: #35537d;
     font-family: "Catamaran", sans-serif;
+    font-size: medium;
 }
 
 /*Header*/
@@ -42,6 +43,10 @@ h1 {
     text-decoration: underline;
 }
 
+#logo {
+   
+}
+
 /* Add margin to the right of the logo icon */
 #logo .fa-water {
     margin-right: 10px;
@@ -51,6 +56,8 @@ h1 {
 /* Style the logo text */
 #logo .logo-text {
     vertical-align: middle;
+    
+    
     /* Vertically align text with the icon */
 }
 
@@ -99,15 +106,23 @@ main {
     height: 100vh;
     /* Adjust the value as needed */
     /* Enable scrolling for content that overflows the main section */
-    overflow-y: auto;
+    overflow-y:hidden;
 }
 
+#title-text {
+    color: #ffffff;
+    font-size: 36px;
+    text-align: right;
+}
 /* Gallery styles */
-/* Gallery styles */
+
+/* Style for the gallery grid */
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
+    margin: 0 auto;
 }
 
 .gallery-item {
@@ -122,14 +137,10 @@ main {
     max-width: 100%;
     max-height: 100%;
     width: auto;
-    /* New addition: Adjust width as needed */
+    /* Adjust width as needed */
     height: auto;
 }
 
-.gallery-container {
-    text-align: center;
-    padding: 40px;
-}
 
 /* Style for the gallery heading */
 .gallery-heading {
@@ -137,15 +148,6 @@ main {
     font-size: 24px;
     margin-bottom: 20px;
 }
-
-To make your gallery page neater and more aesthetically pleasing,
-you can apply some styling changes to your existing code. Here's a modified version of your code with added CSS styles for a cleaner and more organized gallery layout:
-
-html Copy code < !DOCTYPE html><html lang="en"><head>< !-- Meta tags,
-title,
-favicon,
-and stylesheets --></head><body>< !-- Header --><header>< !-- Logo and navigation menu --></header>< !-- Main Content --><main><section id="background-image"></section><div class="gallery-container"><h2 class="gallery-heading">Gallery</h2><div class="gallery"><div class="gallery-item"><img src="assets/images/scuba1.JPG" alt="Scuba diver holding lionfish spear underwater" /></div><div class="gallery-item">< !-- Add more gallery items here --></div></div></div>< !-- Back to Top Button --><a href="#top" class="back-to-top">Back to Top</a></main>< !-- Footer --><footer>< !-- Contact information and social icons --></footer>< !-- Font Awesome script --></body></html>CSS Styles: css Copy code
-/* Add these styles to your existing stylesheet */
 
 /* Style for the gallery container */
 .gallery-container {
@@ -153,20 +155,8 @@ and stylesheets --></head><body>< !-- Header --><header>< !-- Logo and navigatio
     padding: 40px;
 }
 
-/* Style for the gallery heading */
-.gallery-heading {
-    color: #35537d;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
 
-/* Style for the gallery grid */
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    margin: 0 auto;
-}
+
 
 /* Style for each gallery item */
 .gallery-item {
@@ -241,7 +231,6 @@ main {
     /* Adjust padding as needed */
 }
 
-/* Style the white box background */
 /* Style the white box background */
 #background-box {
     background-color: rgba(255, 255, 255, 0.8);
@@ -391,7 +380,7 @@ display: flex;
         display: flex;
         gap: 10px;
         /* Adjust the gap between icons as needed */
-    color: #f67280;
+    color: #C0c9cb;
     /* Set the icon color */
 }
 
@@ -428,6 +417,8 @@ display: flex;
     /* Adjust main content styles */
     main {
         padding: 10px;
+        /* Enable scrolling for content that overflows the main section */
+            overflow-y: auto;
         /* Reduce padding for main content */
     }
 
