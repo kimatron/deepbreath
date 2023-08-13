@@ -59,6 +59,13 @@ h1 {
     /* Vertically align text with the icon */
 }
 
+/* Style the navbar icons when visited */
+#menu-nav li a:visited {
+    color: #35537d;
+    /* Change color when visited */
+    text-decoration: none;
+}
+
 #menu-nav li {
     display: inline;
     font-size: 130%;
@@ -83,6 +90,12 @@ h1 {
     color: #ffffff;
     /* Change text color when hovering */
 }
+
+#menu-nav li a:hover {
+    color: #ffffff;
+}
+
+
 
 /* Main content */
 main {
@@ -124,7 +137,7 @@ main {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 20px;
     margin: 0 auto;
 }
@@ -447,7 +460,7 @@ main {
     border: 2px solid #35537d;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-left: 00
+    margin-left: 0
 }
 
 .contact-box h2 {
@@ -482,7 +495,7 @@ footer {
     /* Stick to the bottom when scrolling */
     bottom: 0;
     /* Stick to the bottom of the viewport */
-    width: 99%;
+    width: 100%;
     /* Full width */
 
 }
