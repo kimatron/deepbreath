@@ -21,7 +21,7 @@ body {
     flex-direction: column;
 
     /*generic project styles*/
-    color: #35537d;
+    color: #14315c;
     font-family: "Catamaran", sans-serif;
     font-size: 20px;
 }
@@ -39,7 +39,7 @@ header {
 h1 {
     font-family: "Questrial", sans-serif;
     text-transform: uppercase;
-    color: #35537d;
+    color: #14315c;
     text-decoration: underline;
 }
 
@@ -61,7 +61,7 @@ h1 {
 
 /* Style the navbar icons when visited */
 #menu-nav li a:visited {
-    color: #35537d;
+    color: #14315c;
     /* Change color when visited */
     text-decoration: none;
 }
@@ -76,15 +76,11 @@ h1 {
     border-right: 2px solid #f8b195;
     list-style-type: none;
     transition: color 0.3s ease;
+    padding: 0 2vw;
+
     /* Added transition for smooth color change */
 }
 
-#menu-nav li {
-    /* ... other styles ... */
-    padding: 0 2vw;
-    /* Adjust padding using viewport units */
-    /* ... other styles ... */
-}
 
 .hover:hover {
     color: #ffffff;
@@ -94,6 +90,7 @@ h1 {
 #menu-nav li a:hover {
     color: #ffffff;
 }
+
 
 
 
@@ -265,7 +262,7 @@ main {
 }
 
 .contact-button:hover {
-    background-color: #ff4757;
+    background-color: #f8b195;
 }
 
 main {
@@ -275,7 +272,7 @@ main {
 
 /* Style the white box background */
 #background-box {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.5);
     /* Semi-transparent white */
     padding: 20px;
     /* Add padding inside the white box */
@@ -297,13 +294,13 @@ main {
 #background-box {
     font-size: 36px;
     margin-bottom: 10px;
-    color: #35537d;
+    color: #14315c;
 }
 
 #background-box h2,
 #background-box p,
 #background-box ul {
-    color: #35537d;
+    color: #14315c;
     font-size: 58px;
     /* Dark blue text color */
 }
@@ -413,7 +410,7 @@ main {
 }
 
 .submit-button {
-    background-color: #35537d;
+    background-color: #14315c;
     color: white;
     border: none;
     padding: 6px 10px;
@@ -471,7 +468,7 @@ main {
 
 .contact-box p {
     font-size: 19px;
-    color: #3C5755;
+    color: #14315c;
     margin-bottom: 10px;
 }
 
@@ -482,7 +479,7 @@ main {
 
 .contact-box li {
     font-size: 16px;
-    color: #35537d;
+    color: #14315c;
     margin-bottom: 5px;
 }
 
@@ -493,7 +490,7 @@ main {
 
 footer {
     background-color: #41a7ad;
-    color: #35537d;
+    color: #14315c;
     text-align: left;
     padding: 10px 0;
     position: sticky;
