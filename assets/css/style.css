@@ -486,6 +486,11 @@ main {
     margin-bottom: 5px;
 }
 
+#thankyou {
+    text-align: center;
+    margin-top: 50px;
+}
+
 footer {
     background-color: #41a7ad;
     color: #35537d;
