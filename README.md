@@ -1,4 +1,4 @@
-<h1>Deep Breath</h1>
+# Deep Breath
 
 ![Deep Breath logo](assets/images/dblogo.png)
 
