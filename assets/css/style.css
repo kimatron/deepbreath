@@ -29,23 +29,36 @@ body {
 /*Header*/
 header {
     background-color: #41a7ad;
-    padding: 2% 2%;
+    padding: 1% 2%;
     /* Adjust padding using viewport units */
     height: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    color: #14315c;
 }
+
+header a:hover {
+    color: #ffffff;
+}
+
+header a {
+    text-decoration: none;
+}
+
+
 
 h1 {
     font-family: "Questrial", sans-serif;
     text-transform: uppercase;
     color: #14315c;
-    text-decoration: underline;
+    text-decoration: none;
     width: 100%;
 }
 
+
 img.logo1 {
-    width: 80px;
+    width: 70px;
     /* Adjust the width as needed */
     height: auto;
     margin-top: 3px;
@@ -62,7 +75,7 @@ img.logo1 {
 /* Style the logo text */
 #logo .logo-text {
     vertical-align: middle;
-
+    text-decoration: line-through;
 
     /* Vertically align text with the icon */
 }
@@ -299,14 +312,13 @@ main {
     /* Set the width of the white box */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     /* Add a subtle shadow */
-}
-
-/* Style the text within the white box */
-#background-box {
+    /* Style the text within the white box */
     font-size: 36px;
     margin-bottom: 10px;
     color: #14315c;
 }
+
+
 
 #background-box h2,
 #background-box p,
@@ -316,16 +328,6 @@ main {
     /* Dark blue text color */
 }
 
-#background-box h2 {
-    font-size: 48px;
-    /* Increase the font size for the heading */
-}
-
-#background-box p,
-#background-box li {
-    font-size: 38px;
-    /* Increase the font size for paragraphs and list items */
-}
 
 /* Style for the discovery section */
 #discovery-section {
@@ -353,17 +355,6 @@ main {
     text-align: center;
 }
 
-/* Style for Contact Form Container */
-#contact-form {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 2px solid #35537d;
-    padding: 20px;
-    border-radius: 10px;
-    width: 40%;
-    /* Adjust the width as needed */
-    margin: 0 auto;
-    /* Center the form horizontally */
-}
 
 /* Center-align the form headings */
 #contact-form h2,
@@ -530,11 +521,12 @@ footer {
     justify-content: space-evenly;
     color: #C0c9cb;
     width: 100%;
+    color: #14315c;
     /* Set the icon color */
 }
 
 .social-icons li {
-    font-size: 130%;
+    font-size: 120%;
 
 }
 
