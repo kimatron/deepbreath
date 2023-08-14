@@ -41,10 +41,11 @@ h1 {
     text-transform: uppercase;
     color: #14315c;
     text-decoration: underline;
+    width: 100%;
 }
 
 img.logo1 {
-    width: 100px;
+    width: 80px;
     /* Adjust the width as needed */
     height: auto;
     margin-top: 3px;
@@ -121,8 +122,9 @@ main {
     flex: 1 0 auto;
     /* Adjust the value as needed */
     flex-grow: 1;
-    padding: 40px;
+    padding: 40px !important;
     /* Adjust padding as needed */
+    min-height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -503,12 +505,14 @@ footer {
     color: #14315c;
     text-align: left;
     padding: 10px 0;
-    position: sticky;
-    /* Stick to the bottom when scrolling */
-    bottom: 0;
+
     /* Stick to the bottom of the viewport */
     width: 100%;
     /* Full width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
 }
 
@@ -516,22 +520,22 @@ footer {
 #social-icon {
     display: flex;
     justify-content: right;
+    width: 100%;
 }
 
 .social-icons {
     list-style-type: none;
     display: flex;
-    gap: 2px;
-    align-items: right;
     /* Adjust the gap between icons as needed */
     justify-content: space-evenly;
     color: #C0c9cb;
+    width: 100%;
     /* Set the icon color */
 }
 
 .social-icons li {
     font-size: 130%;
-    margin: 0 50px;
+
 }
 
 .social-icons:hover {
