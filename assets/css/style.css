@@ -109,7 +109,7 @@ main {
 }
 
 main {
-    background-image: url("../images/main-image.JPG");
+    background-image: url("../images/main-image.jpg");
 
     background-size: cover;
     /* Adjust the background sizing as needed */
