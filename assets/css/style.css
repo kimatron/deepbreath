@@ -118,12 +118,17 @@ main {
     background-repeat: no-repeat;
     /* Prevent the image from repeating */
     /* Increase the height to make the main section taller */
-    height: 100vh;
+    flex: 1 0 auto;
     /* Adjust the value as needed */
     flex-grow: 1;
-    /* Enable scrolling for content that overflows the main section */
-    overflow-y: scroll;
-    padding-right: 15px;
+    padding: 40px;
+    /* Adjust padding as needed */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     /* Add padding to make space for the scrollbar */
 
 }
@@ -272,10 +277,7 @@ main {
     background-color: #f8b195;
 }
 
-main {
-    padding: 40px;
-    /* Adjust padding as needed */
-}
+
 
 /* Style the white box background */
 #background-box {
@@ -458,13 +460,14 @@ main {
 /* Style for contact details box */
 .contact-box {
     flex: 1;
-    max-width: 755;
+    max-width: 755px;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
     border: 2px solid #35537d;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-left: 0
+    margin-left: 0;
+    width: 100%;
 }
 
 .contact-box h2 {
@@ -565,7 +568,6 @@ footer {
     main {
         padding: 10px;
         /* Enable scrolling for content that overflows the main section */
-        overflow-y: auto;
         /* Reduce padding for main content */
     }
 
