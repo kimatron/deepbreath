@@ -271,8 +271,19 @@ main {
     color: #35537d;
     font-size: 18px;
 
-    background-image: ;
+
     /* Remove the background image */
+}
+
+.benefits_image_container {
+    width: 100%;
+
+}
+
+.benefits_image_container img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* Set white background color for the entire page */
