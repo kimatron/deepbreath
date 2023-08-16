@@ -277,12 +277,16 @@ main {
 
 .benefits_image_container {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .benefits_image_container img {
     display: block;
-    width: 100%;
+    width: 100% !important;
+    max-width: 400px;
     object-fit: cover;
 }
 
