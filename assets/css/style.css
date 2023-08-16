@@ -325,7 +325,7 @@ main {
     /* Add padding inside the white box */
     border-radius: 10px;
     position: absolute;
-    top: 50%;
+    top: 45%;
     /* Center vertically */
     left: 20px;
     /* Adjust left position to move the box to the left */
@@ -605,7 +605,7 @@ li {
 
     /* Adjust gallery styles */
     .gallery {
-        grid-template-columns: repeat(2, 1fr);
+
         /* Display 2 columns on small screens */
         gap: 10px;
         /* Reduce gap between gallery items */
