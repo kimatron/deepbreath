@@ -526,7 +526,7 @@ li {
 
 #social-icon {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     width: 100%;
 
 }
@@ -535,7 +535,7 @@ li {
     list-style-type: none;
     display: flex;
     /* Adjust the gap between icons as needed */
-    justify-content: space-around;
+    justify-content: space-between;
     color: #C0c9cb;
     width: 100%;
     color: #14315c;
