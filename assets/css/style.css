@@ -526,16 +526,16 @@ li {
 
 #social-icon {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     width: 100%;
 
 }
 
-#social-icon:hover .social-icons {
+.social-icons {
     list-style-type: none;
     display: flex;
     /* Adjust the gap between icons as needed */
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: #C0c9cb;
     width: 100%;
     color: #14315c;
