@@ -56,6 +56,14 @@ h1 {
     width: 100%;
 }
 
+body a {
+    color: #ffffff
+}
+
+footer a {
+    color: #ffffff;
+}
+
 
 img.logo1 {
     width: 70px;
@@ -108,6 +116,11 @@ img.logo1 {
     /* Change text color when hovering */
 }
 
+.hover2:hover {
+    color: #f8b195;
+    /* Change text color when hovering */
+}
+
 #menu-nav li a:hover {
     color: #ffffff;
 }
@@ -149,11 +162,7 @@ main {
 }
 
 
-#title-text {
-    color: #ffffff;
-    font-size: 36px;
-    text-align: right;
-}
+
 
 /* Gallery styles */
 
@@ -320,20 +329,20 @@ main {
 
 
 
-#background-box h2,
-#background-box p,
-#background-box ul {
-    color: #14315c;
-    font-size: 58px;
-    /* Dark blue text color */
-}
-
-
 /* Style for the discovery section */
 #discovery-section {
-    text-align: center;
+    background-color: rgba(31, 86, 131, 0.5);
+    /* Semi-transparent white */
+    text-align: bottom;
+    width: 350px;
     margin-top: 30px;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+
 }
+
 
 /* Contact page styling */
 
@@ -464,7 +473,7 @@ main {
 }
 
 .contact-box h2 {
-    color: #35537d;
+    color: #14315c;
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -507,6 +516,11 @@ footer {
 
 }
 
+/* takes away bullet points from list items in footer */
+li {
+    list-style: none;
+}
+
 
 #social-icon {
     display: flex;
@@ -518,7 +532,7 @@ footer {
     list-style-type: none;
     display: flex;
     /* Adjust the gap between icons as needed */
-    justify-content: space-evenly;
+    justify-content: center;
     color: #C0c9cb;
     width: 100%;
     color: #14315c;
@@ -571,6 +585,8 @@ footer {
     footer {
         padding: 10px;
     }
+
+
 
     /* Adjust gallery styles */
     .gallery {
@@ -625,17 +641,51 @@ footer {
     }
 
     /* Responsive adjustments for smaller screens */
-    @media screen and (max-width: 768px) {
-        .container {
-            height: auto;
-            /* Reset height to allow content to expand */
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+
+        /* Adjust header styles */
+        header {
+            padding: 3% 5%;
         }
 
-        .contact-box {
-            max-width: 90%;
-            /* Adjust the width for smaller screens */
-            padding: 10px;
-            /* Reduce padding for smaller screens */
+        /* Adjust gallery styles */
+        .gallery {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
         }
+
+        /* Additional adjustments for medium screens */
     }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+
+        /* Adjust header styles */
+        header {
+            padding: 1% 2%;
+        }
+
+        /* Adjust gallery styles */
+        .gallery {
+            gap: 20px;
+        }
+
+        /* Additional adjustments for large screens */
+    }
+
+    @media screen and (min-width: 1025px) {
+
+        /* Adjust header styles */
+        header {
+            padding: 1% 2%;
+        }
+
+        /* Adjust gallery styles */
+        .gallery {
+            gap: 20px;
+        }
+
+        /* Additional adjustments for extra-large screens */
+    }
+
+
 }
