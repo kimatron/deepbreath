@@ -348,7 +348,7 @@ main {
     background-color: rgba(31, 86, 131, 0.5);
     /* Semi-transparent white */
     text-align: bottom;
-    width: 350px;
+
     margin-top: 30px;
     color: #ffffff;
     font-size: 20px;
@@ -366,7 +366,8 @@ main {
     border: 2px solid #35537d;
     padding: 20px;
     border-radius: 10px;
-    width: 40%;
+    width: 100%;
+    max-width: 700px;
     /* Adjust the width as needed */
     margin: 0 auto;
     /* Center the form horizontally */
@@ -391,12 +392,13 @@ main {
 #contact-form input[type="email"],
 #contact-form input[type="phone"],
 #contact-form textarea {
-    width: 100%;
+
     padding: 10px;
     /* Increase padding for more space */
     margin: 5px 0;
     /* Add some margin between input elements */
-    font-size: 16px
+    font-size: 16px;
+    resize: none;
 }
 
 /* void the white text for now
@@ -459,14 +461,16 @@ main {
 #map-and-contact {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     padding: 40px;
+    flex-direction: column;
+
 }
 
 /* Style for the map box */
 .map-box {
     flex: 1;
-    max-width: 50%;
+    width: 100%;
     padding: 20px;
     border: 2px solid #35537d;
     border-radius: 10px;
@@ -583,10 +587,12 @@ li {
     }
 
     #menu-nav li {
-        padding: 10px 0;
+        padding: 5px 0;
         /* Add spacing between menu items */
         border-right: none;
         /* Remove right border from menu items */
+        display: flex;
+        flex-direction: column;
     }
 
     /* Adjust main content styles */
