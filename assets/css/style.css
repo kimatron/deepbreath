@@ -191,6 +191,8 @@ main {
     width: auto;
     /* Adjust width as needed */
     height: auto;
+    /* this line is to ensure rounded corners for all images */
+    border-radius: 10px;
 }
 
 
@@ -222,12 +224,7 @@ main {
 
 }
 
-.gallery-item img {
-    max-width: 100%;
-    height: auto;
-    /* this line is to ensure rounded corners for all images */
-    border-radius: 10px;
-}
+
 
 /* Back to Top button styles */
 .back-to-top {
@@ -536,7 +533,7 @@ li {
     display: flex;
     /* Adjust the gap between icons as needed */
     justify-content: space-evenly;
-    color: #C0c9cb;
+    ;
     width: 100%;
     color: #14315c;
     /* Set the icon color */
@@ -547,7 +544,7 @@ li {
 
 }
 
-.social-icons:hover {
+.social-icons a:hover {
     color: #f67280;
     /* Change icon color on hover */
 }
