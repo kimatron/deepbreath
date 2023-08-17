@@ -6,7 +6,8 @@ Deep Breath is a site to advertise the scuba diving company "Deep Breath" and do
 
 It will be useful for people interested in taking care of their well-being, and finding out more information on how to get started in partaking in underwater meditation.
 
-The site can be accessed through this [link](https://kimatron.github.io/deepbreath/)](https://kimatron.github.io/deepbreath/)
+The site can be accessed through this 
+![link](https://kimatron.github.io/deepbreath/)](https://kimatron.github.io/deepbreath/)
 
 ![Deep Breath](documentation/indexresponsive.png)
 
