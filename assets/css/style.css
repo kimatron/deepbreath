@@ -275,6 +275,11 @@ main {
     /* Remove the background image */
 }
 
+.no-background-image {
+    background-image: none !important;
+    background-color: #ffffff;
+}
+
 .benefits_image_container {
     width: 100%;
     display: flex;
@@ -347,7 +352,7 @@ main {
 #discovery-section {
     background-color: rgba(31, 86, 131, 0.5);
     /* Semi-transparent white */
-    text-align: bottom;
+
 
     margin-top: 30px;
     color: #ffffff;
@@ -477,6 +482,7 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+
 /* Style for contact details box */
 .contact-box {
     flex: 1;
@@ -566,6 +572,53 @@ li {
 .social-icons a:hover {
     color: #f67280;
     /* Change icon color on hover */
+}
+
+@media screen and (min-width: 1025px) {
+
+    /* Adjust header styles */
+    header {
+        padding: 1% 2%;
+    }
+
+    /* Adjust gallery styles */
+    .gallery {
+        gap: 20px;
+    }
+
+    /* Additional adjustments for extra-large screens */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    /* Adjust header styles */
+    header {
+        padding: 1% 2%;
+    }
+
+    /* Adjust gallery styles */
+    .gallery {
+        gap: 20px;
+    }
+
+    /* Additional adjustments for large screens */
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+
+    /* Adjust header styles */
+    header {
+        padding: 3% 5%;
+    }
+
+    /* Adjust gallery styles */
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    /* Additional adjustments for medium screens */
 }
 
 /* Apply responsive styles for phone-sized screens (up to 480px width) */
@@ -661,52 +714,11 @@ li {
         /* Set a fixed height for the map */
     }
 
-    /* Responsive adjustments for smaller screens */
-    @media screen and (min-width: 481px) and (max-width: 768px) {
 
-        /* Adjust header styles */
-        header {
-            padding: 3% 5%;
-        }
 
-        /* Adjust gallery styles */
-        .gallery {
-            grid-template-columns: repeat(3, 1fr);
-            gap: 15px;
-        }
 
-        /* Additional adjustments for medium screens */
-    }
 
-    @media screen and (min-width: 769px) and (max-width: 1024px) {
 
-        /* Adjust header styles */
-        header {
-            padding: 1% 2%;
-        }
-
-        /* Adjust gallery styles */
-        .gallery {
-            gap: 20px;
-        }
-
-        /* Additional adjustments for large screens */
-    }
-
-    @media screen and (min-width: 1025px) {
-
-        /* Adjust header styles */
-        header {
-            padding: 1% 2%;
-        }
-
-        /* Adjust gallery styles */
-        .gallery {
-            gap: 20px;
-        }
-
-        /* Additional adjustments for extra-large screens */
-    }
 
 
 }
