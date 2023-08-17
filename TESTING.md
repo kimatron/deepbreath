@@ -29,7 +29,7 @@ One strange bug I noticed in Incognito mode was that the Nav Menu was permanentl
 
     - Contact Page:
 
-    ![Contact Page](documentation/contactresponsive.PNG)
+    ![Contact Page](documentation/contactresponsive.png)
 
     - Response Page:
 
