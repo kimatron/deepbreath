@@ -580,7 +580,6 @@ li {
     /* Adjust main content styles */
     main {
         padding: 10px;
-        /* Enable scrolling for content that overflows the main section */
         /* Reduce padding for main content */
     }
 
