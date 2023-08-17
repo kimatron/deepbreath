@@ -17,23 +17,23 @@ One strange bug I noticed in Incognito mode was that the Nav Menu was permanentl
 
     - Main Page:
 
-    ![Main Page](documentation\indexresponsive.png)
+    ![Main Page](documentation/indexresponsive.png)
     
      - Benefits Page:
 
-    ![Benefits Page](documentation\benefitsresponsive1.png)
+    ![Benefits Page](documentation/benefitsresponsive1.png)
 
     - Gallery Page:
 
-    ![Gallery Page](documentation\galleryresponsive.png)
+    ![Gallery Page](documentation/galleryresponsive.png)
 
     - Contact Page:
 
-    ![Contact Page](documentation\contactresponsive.PNG)
+    ![Contact Page](documentation/contactresponsive.PNG)
 
     - Response Page:
 
-    ![Response Page](documentation\thankyouresponsive.png)
+    ![Response Page](documentation/thankyouresponsive.png)
 
 + The website was checked with [Responsive Viewer Extension](https://responsiveviewer.org/).
 
@@ -75,29 +75,29 @@ One strange bug I noticed in Incognito mode was that the Nav Menu was permanentl
     ![Home Page HTML Validator](documentation/indexhtmlvalidator.png)
     
      #### Benefit Page
-    - One error was found when passing through the official W3C validator. The "Click Here" button is functioning correctly, however.
+    - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Benefits Page HTML Validator](documentation\benefithtmlvalidator.png)
+    ![Benefits Page HTML Validator](documentation/benefithtmlvalidator.png)
   #### Gallery Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Gallery Page HTML Validator](documentation\galleryhtmlvalidator.png)
+    ![Gallery Page HTML Validator](documentation/galleryhtmlvalidator.png)
 
   #### Contact Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Contact Page HTML Validator](documentation\contacthtmlvalidator.png)
+    ![Contact Page HTML Validator](documentation/contacthtmlvalidator.png)
 
   #### Thank You Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Thank You  Page HTML Validator](documentation\thankyouhtmlvalidator.png)
+    ![Thank You  Page HTML Validator](documentation/thankyouhtmlvalidator.png)
     
 + ### CSS
   No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
     
   
-  ![CSS Validator](documentation\cssvalidator.png)
+  ![CSS Validator](documentation/cssvalidator.png)
   
 
 
@@ -107,24 +107,24 @@ One strange bug I noticed in Incognito mode was that the Nav Menu was permanentl
     
   ### Home page
 
-  ![Home Page Lighthouse](documentation\indexhtmldesktoplighthouse.png)
+  ![Home Page Lighthouse](documentation/indexhtmldesktoplighthouse.png)
 
   ### Benefits page
 
-  ![Contact Page Lighthouse](documentation\benefitsdesktoplighthouse.png)
+  ![Contact Page Lighthouse](documentation/benefitsdesktoplighthouse.png)
 
   ### Gallery page
 
-  ![Gallery Page Lighthouse](documentation\gallerydesktoplighthouse.png)
+  ![Gallery Page Lighthouse](documentation/gallerydesktoplighthouse.png)
   The performance in the Gallery Page is lower than I would like, but I fixed some of the suggestions in my code to higher it, yet the score did not change.
 
   ### Contact page
 
-  ![Contact Page Lighthouse](documentation\contacthtmlvalidator.png)
+  ![Contact Page Lighthouse](documentation/contacthtmlvalidator.png)
 
   ### Response page
 
-  ![Response Page Lighthouse](documentation\thankyoudesktoplighthouse.png)
+  ![Response Page Lighthouse](documentation/thankyoudesktoplighthouse.png)
 
 ---
 ​
@@ -139,8 +139,18 @@ One strange bug I noticed in Incognito mode was that the Nav Menu was permanentl
         *Solution:* Deleted some unnecessary code above that was overriding the color change in my .social-icon code. 
 
     3. An inner scroll bar was causing issues with the footer, causing it to overlap over the side of the page. 
+
         
         *Solution:* Disabled scrolling in the main content code.
+
+    4. When changing file names in explorer on VS code or codeanywhere, the name changes were showing up on GitHub for some reason.
+
+*Solution:* I had to delete files from GitHub and reupload them, and change testing.md to TESTING.md in GitHub Manually
+
+5. When copying file paths from explorer it was giving me a path with \ instead of /. The images were still showing in preview, but not from the deployed page.
+
+*Solution:* Manually change all slashes
+
     ---
 + ### Unsolved bugs
     - Map was throwing an error in the validator, when I deleted the warning code, the map is now smaller than I originally planned for it's container.
