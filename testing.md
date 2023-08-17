@@ -103,7 +103,7 @@ One strange bug I noticed in Incognito mode was that the Nav Menu was permanentl
 
 + ## LightHouse report
 
-    - Using lighthouse in devtools in Google Chrome, I confirmed that the website is performing well on most counts, is accessible and colors and fonts chosen are readable.
+    - Using lighthouse in devtools in Google Chrome, I confirmed that the website is performing well on most counts, is accessible and the colors and fonts chosen are readable.
     
   ### Home page
 

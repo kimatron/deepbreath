@@ -6,9 +6,9 @@ Deep Breath is a site to advertise the scuba diving company "Deep Breath" and do
 
 It will be useful for people interested in taking care of their well-being, and finding out more information on how to get started in partaking in underwater meditation.
 
-The site can be accessed by this [link](https://kimatron.github.io/deepbreath/)
+The site can be accessed through this [link](https://kimatron.github.io/deepbreath/)](https://kimatron.github.io/deepbreath/)
 
-![Deep Breath](documentation\indexresponsive.png)
+![Deep Breath](documentation/indexresponsive.png)
 
 ## Existing Features
 ### - Navigation Bar
@@ -18,16 +18,19 @@ The site can be accessed by this [link](https://kimatron.github.io/deepbreath/)
 - Each section is easy to identify and identical in a manner to allow for easy navigation. 
 
 The purpose of this feature is to allow users to easily navigate through different sections of the site.
-![Navbar](documentation\navbar.png)
+
+![Navbar](documentation/navbar.png)
 
 ### Footer
 - The footer remains at the bottom of the page and provides easy links to social media pages which are always easily accessible.
-![Footer](documentation\footer.png)
+
+![Footer](documentation/footer.png)
 
 ### - The landing page image
 
 - The landing page includes an image with text to grab the user's attention and allows them to identify the section that will direct them to information about Underwater Meditation
-![Landing Page](assets\images\main-image.jpg)
+
+![Landing Page](assets/images/main-image.jpg)
 
 ### - Gallery Page
 - A gallery page was added to include images for users to visualize what underwater meditation would look and feel like. It also breaks up any monotonous-looking text blocks.
@@ -41,31 +44,33 @@ The purpose of this feature is to allow users to easily navigate through differe
 - It has a call to action button right after the introduction message that leads to the contact form page.
 
 ### Contact page
-- Contact page has a contact form that :
-
+- The contact page has a contact form that :
     - All text input fields are customized.
    - Important inputs are set to be required to fill out.
     - The submit button is animated on hover.
      - The submit button leads to the response page.
-- Contains an interactive map with location of dive center.
+- Contains an interactive map with the location of the dive center.
 - Contains a contact us box with a typed physical address.
-![Contact Us](documentation\contactus.png)
+
+![Contact Us](documentation/contactus.png)
 
 ## Design
 
 ### Color Scheme
-Dark and light blues and coral shades were used to match the water theme of the company and to co-ordinate with underwater images and provide a contrast for visual ease.
+Dark and light blues and coral shades were used to match the water theme of the company and to coordinate with underwater images and provide a contrast for visual ease.
 
-![Color Scheme](documentation\deepbreath_colorpalette.png)
+![Color Scheme](documentation/deepbreath_colorpalette.png)
 
 ### Typography
 
 Main Font 
 - Catamaran (sans-serif) Google Font was used as the main font of the website to increase the readability of the content on the pages.
-![Catamaran](documentation\catamaranfont.png)
+
+![Catamaran](documentation/catamaranfont.png)
 
 Accent Font 
-- Questrial (sans-serif) Google Font was used to attract viewers' attention to the company's logo, to differentiate the strong points of the company.
+- Questrial (sans-serif) Google Font was used to attract viewers' attention to the company's logo and to differentiate the strong points of the company.
+
 ![Questrial](documentation/questrialfont.png)
 
 ## Deployment
@@ -85,11 +90,12 @@ In your IDE Terminal, type the following command to clone my repository:
 - `git clone https://github.com/kimatron/deepbreath.git`
 
 ## Potential Future Features
-In the future adding a feature to index local dive shops in a user's area via a mapping tool and linking them to dive shops in their locality would be beneficial.
 
- This could also be beneficial to *us* by way of commission of sales possibly.
+- In the future adding a feature to index local dive shops in a user's area via a mapping tool and linking them to dive shops in their locality would be beneficial.
 
- Adding a live booking feature would improve sales and increase response time rather than having to contact us and wait for a response.
+ - This could also be beneficial to *us* by way of commission of sales possibly.
+
+ - Adding a live booking feature would improve sales and increase response time rather than having to contact us and wait for a response.
 
 ## Testing
 
