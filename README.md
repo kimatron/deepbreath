@@ -1,6 +1,4 @@
-# Deep Breath
-
-![Deep Breath logo](assets/images/dblogo.png)
+![Deep Breath logo](assets/images/logodb.png)
 
 # Deep Breath
 
@@ -9,6 +7,8 @@ Deep Breath is a site to advertise the scuba diving company "Deep Breath" and do
 It will be useful for people interested in taking care of their well-being, and finding out more information on how to get started in partaking in underwater meditation.
 
 The site can be accessed by this [link](https://kimatron.github.io/deepbreath/)
+
+![Deep Breath](documentation\indexresponsive.png)
 
 ## Existing Features
 ### - Navigation Bar
@@ -27,6 +27,7 @@ The purpose of this feature is to allow users to easily navigate through differe
 ### - The landing page image
 
 - The landing page includes an image with text to grab the user's attention and allows them to identify the section that will direct them to information about Underwater Meditation
+![Landing Page](assets\images\main-image.jpg)
 
 ### - Gallery Page
 - A gallery page was added to include images for users to visualize what underwater meditation would look and feel like. It also breaks up any monotonous-looking text blocks.
