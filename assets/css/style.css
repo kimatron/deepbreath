@@ -1,9 +1,4 @@
 /* importing font style Catamaran */
-/* rules to match : 
-font-family: 'Catamaran',
-sans-serif;
-font-family: 'Questrial',
-sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;400;500;600;700;800&family=Questrial&display=swap");
 
 /* asterix selector to ovveride default styles added by the browswer */
@@ -46,8 +41,6 @@ header a {
     text-decoration: none;
 }
 
-
-
 h1 {
     font-family: "Questrial", sans-serif;
     text-transform: uppercase;
@@ -60,12 +53,9 @@ body a {
     color: #ffffff
 }
 
-
-
 footer a:hover {
     color: #ffffff;
 }
-
 
 img.logo1 {
     width: 70px;
@@ -112,34 +102,27 @@ img.logo1 {
     /* Added transition for smooth color change */
 }
 
-
 .hover:hover {
     color: #ffffff;
-    /* Change text color when hovering */
 }
 
 .hover2:hover {
     color: #f8b195;
-    /* Change text color when hovering */
 }
 
 #menu-nav li a:hover {
     color: #ffffff;
 }
 
-
-
-
 /* Main content */
 main {
     background-color: #35537d;
-    /* main main content take up any extra space to push footer down */
+    /* make main content take up any extra space to push footer down */
     flex: 1 0 auto;
 }
 
 main {
     background-image: url("../images/main-image.jpg");
-
     background-size: cover;
     /* Adjust the background sizing as needed */
     background-position: center;
@@ -148,22 +131,15 @@ main {
     /* Prevent the image from repeating */
     /* Increase the height to make the main section taller */
     flex: 1 0 auto;
-    /* Adjust the value as needed */
     flex-grow: 1;
     padding: 40px !important;
-    /* Adjust padding as needed */
     min-height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    /* Add padding to make space for the scrollbar */
-
 }
-
-
 
 
 /* Gallery styles */
@@ -195,7 +171,6 @@ main {
     border-radius: 10px;
 }
 
-
 /* Style for the gallery heading */
 .gallery-heading {
     color: #ffffff;
@@ -209,9 +184,6 @@ main {
     padding: 40px;
 }
 
-
-
-
 /* Style for each gallery item */
 .gallery-item {
     display: flex;
@@ -221,9 +193,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
-
 }
-
 
 
 /* Back to Top button styles */
@@ -246,16 +216,12 @@ main {
 }
 
 .title-style {
-
     text-align: center;
     font-size: 36px;
     color: #35537d;
     margin-top: 40px;
-    /* Add margin for spacing */
     padding: 10px;
-    /* Add padding for background */
     background-color: rgba(255, 255, 255, 0.9);
-    /* Set background color */
     border: 2px solid #35537d;
     border-radius: 10px;
     /* Add rounded corners */
@@ -270,9 +236,6 @@ main {
     background-color: #ffffff;
     color: #35537d;
     font-size: 18px;
-
-
-    /* Remove the background image */
 }
 
 .no-background-image {
@@ -285,7 +248,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .benefits_image_container img {
@@ -295,15 +257,12 @@ main {
     object-fit: cover;
 }
 
-/* Set white background color for the entire page */
 /* adding caption text to match image mid paragraphs on benefits page*/
 .caption {
     text-align: center;
     font-style: italic;
     color: #888;
-    /*  color for caption text */
     font-size: 14px;
-    /* font size for caption text */
 }
 
 .contact-button {
@@ -331,35 +290,25 @@ main {
     border-radius: 10px;
     position: absolute;
     top: 45%;
-    /* Center vertically */
     left: 20px;
     /* Adjust left position to move the box to the left */
     transform: translateY(-50%);
-    /* Center vertically using transform */
     width: 300px;
-    /* Set the width of the white box */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    /* Add a subtle shadow */
-    /* Style the text within the white box */
     font-size: 36px;
     margin-bottom: 10px;
     color: #14315c;
 }
 
 
-
 /* Style for the discovery section */
 #discovery-section {
     background-color: rgba(31, 86, 131, 0.5);
-    /* Semi-transparent white */
-
-
     margin-top: 30px;
     color: #ffffff;
     font-size: 20px;
     text-decoration: none;
     border-radius: 10px;
-
 }
 
 
@@ -373,9 +322,7 @@ main {
     border-radius: 10px;
     width: 100%;
     max-width: 700px;
-    /* Adjust the width as needed */
     margin: 0 auto;
-    /* Center the form horizontally */
 }
 
 /* Center-align the form headings */
@@ -383,7 +330,6 @@ main {
 #contact-form p {
     text-align: center;
 }
-
 
 /* Center-align the form headings */
 #contact-form h2,
@@ -395,13 +341,11 @@ main {
 /* Increase the width and padding of text input boxes */
 #contact-form input[type="text"],
 #contact-form input[type="email"],
-#contact-form input[type="phone"],
+#contact-form input[type="number"],
 #contact-form textarea {
 
     padding: 10px;
-    /* Increase padding for more space */
     margin: 5px 0;
-    /* Add some margin between input elements */
     font-size: 16px;
     resize: none;
 }
@@ -446,7 +390,6 @@ main {
     color: white;
     border: none;
     padding: 6px 10px;
-    /* Adjust padding to make the button smaller */
     border-radius: 5px;
     cursor: pointer;
 }
@@ -459,7 +402,6 @@ main {
     height: 300px;
     margin-bottom: 20px;
     margin-top: 40px;
-    /* Adjust the height as needed */
 }
 
 /* Style for map and contact details section */
@@ -532,7 +474,6 @@ footer {
 
     /* Stick to the bottom of the viewport */
     width: 100%;
-    /* Full width */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -556,24 +497,20 @@ li {
 .social-icons {
     list-style-type: none;
     display: flex;
-    /* Adjust the gap between icons as needed */
     justify-content: space-evenly;
-    ;
     width: 100%;
     color: #14315c;
-    /* Set the icon color */
 }
 
 .social-icons li {
     font-size: 120%;
-
 }
 
 .social-icons a:hover {
     color: #f67280;
-    /* Change icon color on hover */
 }
 
+/* Additional adjustments for extra-large screens */
 @media screen and (min-width: 1025px) {
 
     /* Adjust header styles */
@@ -586,9 +523,9 @@ li {
         gap: 20px;
     }
 
-    /* Additional adjustments for extra-large screens */
 }
 
+/* Additional adjustments for large screens */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
     /* Adjust header styles */
@@ -600,8 +537,6 @@ li {
     .gallery {
         gap: 20px;
     }
-
-    /* Additional adjustments for large screens */
 }
 
 /* Responsive adjustments for smaller screens */
@@ -660,8 +595,6 @@ li {
         padding: 10px;
     }
 
-
-
     /* Adjust gallery styles */
     .gallery {
 
@@ -674,7 +607,6 @@ li {
         max-width: 100%;
         /* Ensure images scale down on small screens */
     }
-
 
     /* Adjust contact-form styles */
     #contact-form {
